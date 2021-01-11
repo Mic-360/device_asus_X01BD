@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_X01BD.mk
+    $(LOCAL_DIR)/octavi_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_X01BD-userdebug
+    octavi_X01BD-userdebug
