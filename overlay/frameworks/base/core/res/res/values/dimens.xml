@@ -21,6 +21,13 @@
     <dimen name="status_bar_height_landscape">81px</dimen>
 
     <!-- Software rounded corner radius -->
-    <dimen name="rounded_corner_radius_top">90px</dimen>
-    <dimen name="rounded_corner_radius_bottom">90px</dimen>
+    <dimen name="rounded_corner_radius">92px</dimen>
+    <dimen name="rounded_corner_radius_top">92px</dimen>
+    <dimen name="rounded_corner_radius_bottom">92px</dimen>
+	
+    <!-- Misc -->
+    <dimen name="config_dialogCornerRadius">10dip</dimen>
+    <dimen name="config_buttonCornerRadius">5dip</dimen>
+    <dimen name="dialog_corner_radius">10dip</dimen>
+    <dimen name="config_progressBarCornerRadius">1000dip</dimen>
 </resources>
