@@ -15,7 +15,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # PixelExperience Properties
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -24,7 +25,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_NAME := aosp_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := ASUS_X01BDA
+PRODUCT_MODEL := ASUS_X01BD
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
